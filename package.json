@@ -1,7 +1,7 @@
 {
   "name": "gnunez-custom-components",
   "version": "1.0.0",
-  "description": "",
+  "description": "proof of concept of a vue2 components library that uses vuetify and tailwindcss.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
