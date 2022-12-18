@@ -1,19 +1,43 @@
 {
   "name": "gnunez-custom-components",
   "version": "1.0.0",
+  "private": true,
   "description": "proof of concept of a vue2 components library that uses both vuetify and tailwindcss.",
-  "main": "index.js",
+  "author": {
+    "name": "gnunez"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gabrielnz/gnunez-custom-components.git"
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14"
   },
-  "author": "gnunez",
-  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "typescript": "~4.5.5",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "_id": "gnunez-custom-components@1.0.0",
   "bugs": {
     "url": "https://github.com/Gabrielnz/gnunez-custom-components/issues"
   },
-  "homepage": "https://github.com/Gabrielnz/gnunez-custom-components#readme"
+  "homepage": "https://github.com/Gabrielnz/gnunez-custom-components#readme",
+  "license": "MIT",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabrielnz/gnunez-custom-components.git"
+  }
 }
