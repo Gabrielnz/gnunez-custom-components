@@ -3,5 +3,10 @@ module.exports = defineConfig({
   transpileDependencies: [
     'vuetify'
   ],
-  css: { extract: false }
+  css: { extract: false },
+  configureWebpack: {
+    output: {
+      libraryExport: 'default'
+    }
+  }
 })
