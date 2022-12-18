@@ -8,7 +8,7 @@
   },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name gnunez-custom-components src/index.ts",
+    "build": "vue-cli-service build --target lib --name gnunez-custom-components src/index.js",
     "lint": "vue-cli-service lint"
   },
   "main": "dist/gnunez-custom-components.common.js",
