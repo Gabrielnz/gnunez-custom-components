@@ -11,7 +11,11 @@
     "build": "vue-cli-service build --target lib --name gnunez-custom-components src/index.ts",
     "lint": "vue-cli-service lint"
   },
-  "main": "index.js",
+  "main": "dist/gnunez-custom-components.common.js",
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
   "dependencies": {
     "autoprefixer": "^10",
     "core-js": "^3.8.3",
