@@ -8,7 +8,9 @@
   },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name gnunez-custom-components src/index.js",
+    "build": "npm run build:lib && npm run build:style",
+    "build:lib": "vue-cli-service build --target lib --name gnunez-custom-components src/index.js",
+    "build:style": "postcss src/assets/tailwind.css -o dist/styles.css",
     "lint": "vue-cli-service lint"
   },
   "main": "dist/gnunez-custom-components.common.js",
