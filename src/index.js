@@ -1,7 +1,17 @@
 import HelloVuetify from '@/components/HelloVuetify.vue'
 import HelloTailwind from '@/components/HelloTailwind.vue'
 
-export default {
+const components = {
     HelloVuetify,
     HelloTailwind
 }
+
+const gnunezComponents = {
+    install(Vue) {
+        Object.keys(components).forEach(name => {
+            Vue.component(name, components[name])
+        })
+    }
+}
+
+export default gnunezComponents
