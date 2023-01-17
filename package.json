@@ -1,6 +1,6 @@
 {
   "name": "gnunez-custom-components",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "proof of concept of a vue2 components library that uses both vuetify and tailwindcss.",
   "author": {
@@ -12,9 +12,9 @@
     "lint": "vue-cli-service lint"
   },
   "main": "dist/gnunez-custom-components.common.js",
+  "module": "dist/gnunez-custom-components.umd.min.js",
   "files": [
-    "dist/*",
-    "src/*"
+    "dist/*"
   ],
   "dependencies": {
     "autoprefixer": "^10",
