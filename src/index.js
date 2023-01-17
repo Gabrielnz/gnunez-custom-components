@@ -1,9 +1,7 @@
 import HelloVuetify from '@/components/HelloVuetify.vue'
 import HelloTailwind from '@/components/HelloTailwind.vue'
 
-const Components = {
+export default {
     HelloVuetify,
     HelloTailwind
 }
-
-export default Components
